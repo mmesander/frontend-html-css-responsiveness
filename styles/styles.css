@@ -22,6 +22,8 @@ Table of Contents:
     --mobile-bg-color: #F9C48B;
     --tablet-bg-color: #F69051;
     --desktop-bg-color: #F26D40;
+    --text-color: #260803;
+    --text-bg-color: #FDEFEC;
 }
 
 html {
@@ -32,6 +34,7 @@ body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
     background-color: var(--mobile-bg-color);
+    color: var(--text-color);
 }
 
 /*////////////////////////
@@ -47,7 +50,7 @@ body {
 .text-container {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--text-bg-color);
     margin: 2em;
     padding: 1em 1em 2em 1em;
     border-radius: 10px;
