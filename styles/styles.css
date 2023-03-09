@@ -37,9 +37,22 @@ body {
 
 
 /*////////////////////////
-    2. Media Queries
+    4. Media Queries
 ////////////////////////*/
 
 body {
-    background-color: white;
+    background-color: var(--mobile-bg-color);
+}
+
+/*Dit is voor een tablet*/
+@media  screen and (min-width: 768px) {
+    body {
+        background-color: var(--tablet-bg-color);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: var(--desktop-bg-color);
+    }
 }
