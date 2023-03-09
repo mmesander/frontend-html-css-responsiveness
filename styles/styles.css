@@ -17,6 +17,12 @@ body {
     font-weight: 400;
 }
 
+:root {
+    --mobile-bg-color: #F9C48B;
+    --tablet-bg-color: #F69051;
+    --desktop-bg-color: #F26D40;
+}
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
