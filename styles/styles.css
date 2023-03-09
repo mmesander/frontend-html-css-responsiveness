@@ -15,6 +15,7 @@ Table of Contents:
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*border: 1px solid indianred;*/
 }
 
 :root {
@@ -27,9 +28,8 @@ body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
     background-color: var(--mobile-bg-color);
+    font-size: 16px;
 }
-
-
 
 /*////////////////////////
     2. Typography
@@ -41,7 +41,15 @@ body {
     3. Areas
 ////////////////////////*/
 
-
+.text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 2em;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10px;
+    gap: 0.5em;
+}
 
 
 /*////////////////////////
@@ -52,6 +60,7 @@ body {
 /*Dit is voor een tablet*/
 @media  screen and (min-width: 768px) {
     body {
+        font-size: 18px;
         background-color: var(--tablet-bg-color);
     }
 
@@ -60,6 +69,7 @@ body {
 /*Dit is voor een desktop*/
 @media screen and (min-width: 992px) {
     body {
+        font-size: 20px;
         background-color: var(--desktop-bg-color);
     }
 }
