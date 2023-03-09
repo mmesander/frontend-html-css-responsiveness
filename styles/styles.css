@@ -51,9 +51,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--text-bg-color);
-    margin: 2em;
-    padding: 1em 1em 2em 1em;
-    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 2rem;
+    border-radius: .5rem;
     gap: 0.5em;
 }
 
@@ -73,17 +73,23 @@ body {
 
 /*Dit is voor een tablet*/
 @media  screen and (min-width: 768px) {
-    body {
+    html {
         font-size: 18px;
+    }
+
+    body {
         background-color: var(--tablet-bg-color);
     }
 
 }
 
 /*Dit is voor een desktop*/
-@media screen and (min-width: 992px) {
-    body {
+@media screen and (min-width: 1200px) {
+    html {
         font-size: 20px;
+    }
+
+    body {
         background-color: var(--desktop-bg-color);
     }
 }
