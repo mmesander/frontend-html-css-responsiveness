@@ -39,3 +39,7 @@ body {
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
+
+body {
+    background-color: white;
+}
