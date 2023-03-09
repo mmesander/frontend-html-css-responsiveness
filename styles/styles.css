@@ -51,7 +51,15 @@ body {
     gap: 0.5em;
 }
 
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
 
+.image-novi-response {
+    width: 100%;
+}
 /*////////////////////////
     4. Media Queries
 ////////////////////////*/
